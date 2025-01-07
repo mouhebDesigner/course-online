@@ -1,0 +1,81 @@
+/* General Container Styling */
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 50px 0;
+  }
+.course-slider {
+    height: 500px;
+}  
+  /* Content Section Styling */
+  .course-content {
+    flex: 1;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+  }
+  
+  .course-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+  }
+  
+  .course-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  /* Call to Action Button Styling */
+  .cta-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .cta-buttons .btn-explore, .cta-buttons .btn-signup {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .cta-buttons .btn-explore {
+    background-color: #ff6600;
+  }
+  
+  .cta-buttons .btn-signup {
+    background-color: #00b3b3;
+  }
+  
+  .cta-buttons .btn-explore:hover {
+    background-color: #e65c00;
+  }
+  
+  .cta-buttons .btn-signup:hover {
+    background-color: #00a099;
+  }
+  
+  /* Image Section Styling */
+  .course-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .course-image-img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,73 @@
+.car-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.car-header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.car-card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+    transform: scale(1.05);
+}
+
+.car-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.car-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.car-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.car-details {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.car-price {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #2a9d8f;
+}
+
+.car-availability {
+    font-weight: bold;
+}
+
+.car-availability.available {
+    color: green;
+}
+
+.car-availability.not-available {
+    color: red;
+}

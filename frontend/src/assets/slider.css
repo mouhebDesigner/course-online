@@ -1,0 +1,90 @@
+/* Slider CSS */
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .slider-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .slider-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .slider-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .slider-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .slider-content button:hover {
+    background-color: #e68900;
+  }
+  
+  .slider-images {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slider-image:nth-child(1) {
+    opacity: 1;
+  }
+  
+  .slider-image:nth-child(2) {
+    opacity: 0;
+    transition-delay: 0.5s;
+  }
+  
+  .slider-image:nth-child(3) {
+    opacity: 0;
+    transition-delay: 1s;
+  }
+  
+  /* Transition effect when the images change */
+  .slider-image {
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slider-images img {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+  }
+  
